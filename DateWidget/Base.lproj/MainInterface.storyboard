@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11173.2" systemVersion="16A254g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11143.2"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="DateWidget" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QGm-zZ-uDh">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsX-Zu-At3">
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="July" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0kV-x6-3dC">
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEZ-9d-KRj">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="5tz-k2-orx"/>
+                                    <constraint firstAttribute="trailing" secondItem="0kV-x6-3dC" secondAttribute="trailing" id="EdP-uN-CSP"/>
+                                    <constraint firstItem="TsX-Zu-At3" firstAttribute="centerY" secondItem="QGm-zZ-uDh" secondAttribute="centerY" id="F0H-2y-oj6"/>
+                                    <constraint firstAttribute="bottom" secondItem="uEZ-9d-KRj" secondAttribute="bottom" constant="4" id="Q6P-81-TAB"/>
+                                    <constraint firstItem="TsX-Zu-At3" firstAttribute="centerX" secondItem="QGm-zZ-uDh" secondAttribute="centerX" id="Uce-gP-CWi"/>
+                                    <constraint firstItem="0kV-x6-3dC" firstAttribute="top" secondItem="QGm-zZ-uDh" secondAttribute="top" id="b6F-bz-bgT"/>
+                                    <constraint firstItem="0kV-x6-3dC" firstAttribute="leading" secondItem="QGm-zZ-uDh" secondAttribute="leading" id="dds-VG-qCe"/>
+                                    <constraint firstAttribute="trailing" secondItem="uEZ-9d-KRj" secondAttribute="trailing" constant="4" id="rfl-GR-HDw"/>
+                                    <constraint firstAttribute="width" constant="80" id="rzH-Rj-ToP"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="July 18, 2016" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofx-Y0-0fJ">
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-m0-0vd">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Created by Cyangrass"/>
+                                <connections>
+                                    <action selector="openCyangrassSite:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="Rea-ee-4ar"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="QGm-zZ-uDh" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="0eI-TV-WNo"/>
+                            <constraint firstItem="Ofx-Y0-0fJ" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="36k-8V-YIT"/>
+                            <constraint firstItem="1eu-m0-0vd" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="AvQ-0w-0cL"/>
+                            <constraint firstItem="Ofx-Y0-0fJ" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="I1M-tQ-ieR"/>
+                            <constraint firstItem="QGm-zZ-uDh" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="QtK-il-LEX"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="1eu-m0-0vd" secondAttribute="bottom" constant="8" id="j74-On-qnR"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="calendarDayLabel" destination="TsX-Zu-At3" id="4sa-wS-2Ge"/>
+                        <outlet property="calendarMonthLabel" destination="0kV-x6-3dC" id="dLk-lh-1sy"/>
+                        <outlet property="calendarView" destination="QGm-zZ-uDh" id="4V9-lC-rMJ"/>
+                        <outlet property="calendarYearLabel" destination="uEZ-9d-KRj" id="qDr-Pd-gv9"/>
+                        <outlet property="fullDateLabel" destination="Ofx-Y0-0fJ" id="L5O-oW-FW0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="GyP-E2-EWX">
+                    <connections>
+                        <action selector="openCyangrassSite:" destination="M4Y-Lb-cyx" id="pP9-GY-sqv"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="116.8" y="121.4392803598201"/>
+        </scene>
+    </scenes>
+</document>
