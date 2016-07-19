@@ -1,5 +1,5 @@
 # CyanDate
-![https://goo.gl/photos/Mt3hsWyeFJkMN4C87]
+![Screenshot](https://goo.gl/photos/Mt3hsWyeFJkMN4C87)
 
 ## What is CyanDate?
 CyanDate is a really simple way to view the date in your Notification Center widgets! It's clean, with a great look and feel that beats other widgets of the type.
