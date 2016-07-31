@@ -25,8 +25,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         
         // First go for combined label.
         let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = .mediumStyle
-        dateFormatter.timeStyle = .noStyle
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .none
         
         fullDateLabel.text = dateFormatter.string(from: currentDate)
         
