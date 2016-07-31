@@ -16,7 +16,8 @@ CyanDate will show up in your Notification Center. Please enjoy :).
 
 **Please Note: The "Personal Team" signing will only last seven days. You will need to relaunch CyanDate from Xcode at least once a week, or it will not open past that point. Either that, or sign with a Developer Program account.**
 
-## Why the weird license?
-I am not 18 yet, and my parents have disallowed me from open-sourcing things, because they do not want it being commercially released. So, I have chosen a Creative Commons license that restricts the usage to non-commercial only. This remedies any issues that come with the standard MIT license, at the cost that people cannot use it commercially.
+## What's this program licensed under?
+This program is licensed under the MPL v2.0 license. A good resource about what this
+license means can be found below:
 
-Apologies that this is the case, there is not much I can do about it.
+https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)
