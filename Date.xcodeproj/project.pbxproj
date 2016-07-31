@@ -443,6 +443,7 @@
 				218F67E01D3B4C0D008D9BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		218F67F31D3B4C2F008D9BC1 /* Build configuration list for PBXNativeTarget "DateWidget" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +452,7 @@
 				218F67F51D3B4C2F008D9BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
