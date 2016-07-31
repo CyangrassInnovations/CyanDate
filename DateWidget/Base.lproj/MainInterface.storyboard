@@ -56,21 +56,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eu-m0-0vd">
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="Created by Cyangrass"/>
-                                <connections>
-                                    <action selector="openCyangrassSite:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="Rea-ee-4ar"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="QGm-zZ-uDh" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="0eI-TV-WNo"/>
                             <constraint firstItem="Ofx-Y0-0fJ" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="36k-8V-YIT"/>
-                            <constraint firstItem="1eu-m0-0vd" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="AvQ-0w-0cL"/>
                             <constraint firstItem="Ofx-Y0-0fJ" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="I1M-tQ-ieR"/>
                             <constraint firstItem="QGm-zZ-uDh" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="QtK-il-LEX"/>
-                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="1eu-m0-0vd" secondAttribute="bottom" constant="8" id="j74-On-qnR"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -88,11 +79,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="GyP-E2-EWX">
-                    <connections>
-                        <action selector="openCyangrassSite:" destination="M4Y-Lb-cyx" id="pP9-GY-sqv"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="116.8" y="121.4392803598201"/>
         </scene>

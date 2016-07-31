@@ -66,8 +66,4 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         completionHandler(NCUpdateResult.newData)
     }
     
-    @IBAction func openCyangrassSite(_ sender: AnyObject) {
-        self.extensionContext?.open(URL(string: "http://www.cyangrass.com")!, completionHandler: nil)
-    }
-    
 }
