@@ -21,3 +21,13 @@ This program is licensed under the MPL v2.0 license. A good resource about what 
 license means can be found below:
 
 https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)
+
+## Can I contribute?
+Of course, please contribute any issues/changes you like.
+
+Keep in mind by participating:
+
+> Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+
+If you do not wish to abide by the terms of the Contributor Code of Conduct, under
+CODE_OF_CONDUCT.md, you may not contribute to this project.
