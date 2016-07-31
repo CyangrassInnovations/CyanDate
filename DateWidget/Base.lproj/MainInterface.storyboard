@@ -56,12 +56,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlB-Zc-2tw">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <constraints>
                             <constraint firstItem="QGm-zZ-uDh" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leadingMargin" id="0eI-TV-WNo"/>
                             <constraint firstItem="Ofx-Y0-0fJ" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="36k-8V-YIT"/>
                             <constraint firstItem="Ofx-Y0-0fJ" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="I1M-tQ-ieR"/>
+                            <constraint firstItem="PlB-Zc-2tw" firstAttribute="trailing" secondItem="S3S-Oj-5AN" secondAttribute="trailingMargin" id="Kr4-BM-MSo"/>
                             <constraint firstItem="QGm-zZ-uDh" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="QtK-il-LEX"/>
+                            <constraint firstItem="PlB-Zc-2tw" firstAttribute="top" secondItem="Ofx-Y0-0fJ" secondAttribute="bottom" constant="8" id="cMm-gp-Hfl"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -75,6 +82,7 @@
                         <outlet property="calendarMonthLabel" destination="0kV-x6-3dC" id="dLk-lh-1sy"/>
                         <outlet property="calendarView" destination="QGm-zZ-uDh" id="4V9-lC-rMJ"/>
                         <outlet property="calendarYearLabel" destination="uEZ-9d-KRj" id="qDr-Pd-gv9"/>
+                        <outlet property="dayOfWeekLabel" destination="PlB-Zc-2tw" id="EC2-85-xVm"/>
                         <outlet property="fullDateLabel" destination="Ofx-Y0-0fJ" id="L5O-oW-FW0"/>
                     </connections>
                 </viewController>

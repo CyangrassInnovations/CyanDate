@@ -16,6 +16,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     @IBOutlet weak var calendarMonthLabel: UILabel!
     @IBOutlet weak var calendarDayLabel: UILabel!
     @IBOutlet weak var calendarYearLabel: UILabel!
+    @IBOutlet weak var dayOfWeekLabel: UILabel!
     
     // Main code logic here.
     func refreshDateAndAppearance() {
@@ -31,11 +32,14 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         fullDateLabel.text = dateFormatter.string(from: currentDate)
         
         // Now get the components for the months and year
-        let dateComponents = currentCalendar.components([.day, .month, .year], from: currentDate)
+        let dateComponents = currentCalendar.components([.day, .month, .year, .weekday], from: currentDate)
         self.calendarMonthLabel.text = dateFormatter.monthSymbols[dateComponents.month! - 1]
         self.calendarDayLabel.text = dateComponents.day!.description
         let datesArray = Array(dateComponents.year!.description.characters).suffix(from: 2)
         self.calendarYearLabel.text = String(datesArray)
+        
+        let dayOfWeekValue = dateComponents.weekday!
+        self.dayOfWeekLabel.text = currentCalendar.weekdaySymbols[dayOfWeekValue - 1]
         
         // Done!
         
