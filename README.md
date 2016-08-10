@@ -1,3 +1,6 @@
+**Please note that as of iOS 10 Beta 4, the date is added in the notification center. As
+such, this widget is now unmaintained.**
+
 # CyanDate
 ---
 
